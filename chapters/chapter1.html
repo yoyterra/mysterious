@@ -3,68 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Webcomic</title>
+  <title>Chapter 1 - My Webcomic</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-white text-gray-900 font-sans">
-  <!-- Navbar -->
   <nav class="bg-white border-b border-gray-200 p-4 sticky top-0 z-10 shadow-sm">
-    <div class="container mx-auto flex flex-col sm:flex-row sm:justify-between sm:items-center space-y-4 sm:space-y-0">
-      <div class="flex items-center space-x-2">
-        <img src="assets/images/logo.jpg" alt="Logo" class="w-8 h-8 rounded-full">
-        <h1 class="text-xl font-bold">My Webcomic</h1>
-      </div>
-      <div class="flex flex-wrap justify-center sm:justify-end gap-2">
-        <a href="index.html" class="text-gray-700 hover:text-black px-3 py-1">Home</a>
-        <a href="#chapters" class="text-gray-700 hover:text-black px-3 py-1">Chapters</a>
-        <a href="#spreads" class="text-gray-700 hover:text-black px-3 py-1">Spreads</a>
-        <a href="#about" class="text-gray-700 hover:text-black px-3 py-1">About</a>
-      </div>
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="../index.html" class="text-xl font-bold">← Back</a>
+      <h1 class="text-lg font-semibold">Chapter 1: The Beginning</h1>
+      <div></div>
     </div>
   </nav>
 
-  <!-- Main content -->
-  <main class="container mx-auto py-8 px-4">
-    <section id="chapters">
-      <h2 class="text-2xl font-semibold mb-6">Chapters</h2>
-      <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-        <!-- Example chapter card -->
-        <a href="chapters/chapter1.html" class="bg-gray-100 rounded-lg overflow-hidden shadow hover:shadow-lg transition">
-          <img src="assets/images/thumb_ch1.jpg" alt="Chapter 1" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold">Chapter 1</h3>
-            <p class="text-gray-600 text-sm">The Beginning</p>
-          </div>
-        </a>
-        <!-- Add more chapter cards here -->
-      </div>
-    </section>
-
-    <section id="spreads" class="mt-12">
-      <h2 class="text-2xl font-semibold mb-6">Color Spreads</h2>
-      <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-        <!-- Example spread card -->
-        <a href="spreads/spread1.html" class="bg-gray-100 rounded-lg overflow-hidden shadow hover:shadow-lg transition">
-          <img src="assets/images/thumb_spread1.jpg" alt="Spread 1" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold">Color Spread 1</h3>
-            <p class="text-gray-600 text-sm">Special Artwork</p>
-          </div>
-        </a>
-        <!-- Add more spread cards here -->
-      </div>
-    </section>
-
-    <section id="about" class="mt-12">
-      <h2 class="text-2xl font-semibold mb-4">About</h2>
-      <p class="text-gray-700">Welcome to my webcomic! This site features chapters and special color spreads from my ongoing series. Stay tuned for more updates!</p>
-    </section>
+  <main class="container mx-auto px-4 py-8">
+    <!-- Comic images -->
+    <div class="space-y-6">
+      <img src="../assets/images/ch1_page1.jpg" alt="Page 1" class="w-full mx-auto rounded shadow">
+      <img src="../assets/images/ch1_page2.jpg" alt="Page 2" class="w-full mx-auto rounded shadow">
+      <!-- Add more pages as needed -->
+    </div>
   </main>
 
-  <!-- Footer -->
   <footer class="bg-white border-t border-gray-200 text-gray-500 text-center py-4 mt-12">
-    © 2025 My Webcomic. All rights reserved. · 
-    <a href="https://twitter.com/yourusername" target="_blank" class="text-blue-500 hover:underline">Follow on X (Twitter)</a>
+    © 2025 My Webcomic. All rights reserved.
   </footer>
 </body>
 </html>
